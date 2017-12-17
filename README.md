@@ -1,1 +1,3 @@
 # cpufrequency_ondemand_module
+
+Managing CPU clock speed has always been the issue on modern computing systems. In linux, it allows users and developers to change the 'tendency' of clock speed of the CPU so that they can choose that meets with their flavor, the longer battery life or the performance (or somewhere on the middle of them). CPU clock speed should be lower to consumes less power if there are no processes running, while it must be raised when more calculating ability is needed. But finding the efficient point which meets both goals (Not disturbing users when they need more CPU resources, and using less power maintaining same performance) is usually not that simple. Thus, smart CPU clock speed modification algorithm is necessary. 
